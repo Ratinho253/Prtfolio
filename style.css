@@ -53,3 +53,12 @@ footer{
     font-size: .75rem;
     border-top: 2px solid #fff;
 }
+
+/*Tablet*/
+@media(max-width:960px){
+
+}
+/*Celular*/
+@media(max-width:640px){
+
+}
