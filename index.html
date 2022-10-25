@@ -14,6 +14,10 @@
     <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/sobre-mim.css">
+    <link rel="stylesheet" href="./css/section-title.css">
+    <link rel="stylesheet" href="./css/projetos.css">
+    <link rel="stylesheet" href="./css/contatos.css">
+    <link rel="stylesheet" href="./css/back.css">
     <title>Portifolio - João Victor </title>
 </head>
 <body>
@@ -23,6 +27,7 @@
         </div>
         <nav>
             <ul class="menu">
+                
                 <li>
                     <a href="#home">Início</a>
                 </li>
@@ -40,6 +45,9 @@
     </header>
 
     <main>
+        <a href="#home" class="back">
+            <i class="fas fa-angle-double-up"></i>
+        </a>
         <section class="home" id="home">
             <img src="./img/fotoMinha.png" alt="foto" class="home__photo">
             <div>
@@ -65,34 +73,109 @@
                 <span>HTML</span>
             </div>
             <div class="skills__icon">
-                <i class="fab fa-html5"></i>
-                <span>HTML</span>
+                <i class="fab fa-css3-alt"></i>
+                <span>CSS</span>
             </div>
             <div class="skills__icon">
-                <i class="fab fa-html5"></i>
-                <span>HTML</span>
+                <i class="fab fa-js"></i>
+                <span>JavaScript</span>
             </div>
             <div class="skills__icon">
-                <i class="fab fa-html5"></i>
-                <span>HTML</span>
+                <i class="fab fa-figma"></i>
+                <span>FIGMA</span>
             </div>
             <div class="skills__icon">
-                <i class="fab fa-html5"></i>
-                <span>HTML</span>
+                <i class="fab fa-github"></i>
+                <span>GITHUB</span>
             </div>
             <div class="skills__icon">
-                <i class="fab fa-html5"></i>
-                <span>HTML</span>
+                <i class="fab fa-java"></i>
+                <span>JAVA</span>
             </div>
 
             </div>
         </div>
         </section>
-        <section class="Projetos" id="projetos"></section>
-        <section class="Contatos" id="contatos"></section>
+        <section class="Projetos" id="projetos">
+            <h2 class="section-title">Projetos</h2>
+            <div class="card-container">
+                <a href="https://ratinho253.github.io/site_simples/" class="card">
+                    <img src="./img/site-simple.png" alt="primeiro site">
+                </a>
+                <a href="https://ratinho253.github.io/landing-page-pikachu/" target="_blank"  class="card">
+                    <img src="./img/pikachu.png" alt="pikachu">
+                </a>
+                <a href="https://ratinho253.github.io/receita_bolo/" class="card">
+                    <img src="./img/recita bolo.png" alt="receita de bolo">
+                </a>
+                <a href="https://ratinho253.github.io/headphone-purple/" class="card">
+                    <img src="./img/headphone.png" alt="headphone">
+                </a>
+                <a href="#" class="card">
+                    <img src="./img/pikachu.png" alt="pikachu">
+                </a>
+                <a href="#" class="card">
+                    <img src="./img/pikachu.png" alt="pikachu">
+                </a>
+            </div>
+        </section>
+        <section class="contatos" id="contatos">
+            <h2 class="section-title">Contatos</h2>
+            <ul class="contato-container">
+                <li>
+                    <h3 class="contato-title">Contatos</h3>
+                </li>
+                <li>
+                    <div class="contato-icon">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>(11) 98402-9312</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="contato-icon">
+                        <i class="fas fa-envelope"></i>
+                        <span>jv147002@gmail.com</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="contato-icon">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>(11) 98402-9312</span>
+                    </div>
+                </li>
+            </ul>
+            <ul class="social-container">
+                <li>
+                    <a href="#" class="social-item">  <i class="fab fa-instagram"></i> </a>
+                   
+                </li>
+                <li>
+                    <a href="https://github.com/Ratinho253" class="social-item">  <i class="fab fa-github"></i> </a>
+                     
+                </li>
+                <li>
+                    <a href="#" class="social-item"><i class="fab fa-facebook"></i></a>
+                    
+                </li>
+                <li>
+                    <a href="#" class="social-item"> <i class="fab fa-linkedin"></i> </a>
+                    
+                </li>
+                
+            </ul>
+            <ul class="links-container">
+                <li>
+                    <h3 class="link-title">Links</h3>
+                </li>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#sobre-mim">Sobre mim</a></li>
+                <li><a href="#projetos">Projetos</a> </li>   
+                <li><a href="#contatos">contatos</a></li>
+            </ul>
+        </section>
     </main>
 
-    <footer> aaaaaaaaaaa</footer>
+    <footer> Todos os direitos reservados 2022 | Desenvolvido por João Victor da Silva</footer>
 
 </body>
 </html>

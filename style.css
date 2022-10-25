@@ -36,7 +36,7 @@ section{
 }
 
 .Projetos{
-    background-color: lightgreen;
+  
     width: 100%;
 }
 .Contato{
@@ -46,7 +46,10 @@ section{
 footer{
     place-self: end center;
     grid-area: content;
-    height: 100px;
+    height: 50px;
     width: 100%;
-    background-color: #0008;
+    display: grid;
+    place-content: center;
+    font-size: .75rem;
+    border-top: 2px solid #fff;
 }
