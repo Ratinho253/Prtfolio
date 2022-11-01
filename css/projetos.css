@@ -42,8 +42,9 @@
         align-items: center;        
     }   
     .card{
-        width: 672px;
-        height: 420px;
+        margin-left: 5px;
+        width: 610px;
+        height: 400px;
         display: flex;       
     }  
 }

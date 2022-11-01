@@ -69,6 +69,7 @@
     }
     .contato-title{
         grid-area: title;
+
     }
     .contato-container{
         grid-area: contato;
@@ -79,32 +80,40 @@
         
     }
     .social-container{
-        grid-area: social;
+        justify-content: center;
+        place-self: start center;
+        font-size: 2rem;
+        gap: 60px;
+        
     }
 }
  
 /* MOBILE */
 @media (max-width:640px){
     .contatos{
-        max-width: 592px;
+        max-width: 700px;
         width: 100%;
-        height: 1200px;
+        height: 1500px;
         display: flex;
         flex-direction: column;
-        gap: 48px;
+        gap: 100px;
     }
     .contato-title{
         display: none;
+        font-size: 4rem;
     }
     .contato-icon{
         justify-content: center;
+        font-size: 2rem;
     }
     .links-container{
         align-items: center;
+        font-size: 2rem;
     }
     .social-container{
         display: flex;
         flex-direction: column;
         place-self: center;
+        font-size: 2rem;
     }
 }

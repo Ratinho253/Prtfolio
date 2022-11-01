@@ -16,7 +16,12 @@
     .menu{
         display: none;
     }
+    .menu__lista {
+        display: flex;
+        font-size: 1.25rem;
+    }
 }
+
 
 /* MOBILE */
 @media (max-width:640px){
@@ -24,4 +29,4 @@
         max-width: 592px;
         width: 100%;
     }
-}
+}    
