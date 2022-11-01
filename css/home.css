@@ -18,3 +18,12 @@
     color: var(--primary-color);
 
 }
+/* TABLET */
+@media (max-width: 960px){
+    .home{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+}

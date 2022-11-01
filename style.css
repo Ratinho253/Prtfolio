@@ -56,9 +56,14 @@ footer{
 
 /*Tablet*/
 @media(max-width:960px){
+    header{
+        max-width: 672px;
+        width: 100%;
+    }
 
 }
 /*Celular*/
 @media(max-width:640px){
+
 
 }

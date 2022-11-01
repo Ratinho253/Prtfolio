@@ -56,3 +56,45 @@
     .skills__icons span{
         font-size: 1.5rem;
     }
+/* TABLET */
+    @media (max-width: 960px){
+        .sobre-mim{        
+            height: auto;
+            display: flex;
+            flex-direction: column; 
+            align-items: center;      
+        }
+        .description{
+            max-width: 672px;
+            width: 100%;        
+        }
+        .skills{
+            max-width: 672px;
+            width: 100%;
+        }
+        .sobre-mim h2{
+            max-width: 900px;
+            width: 100%;
+            white-space: nowrap;  
+            font-size: 10rem;
+        }
+        .skills__icon{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-bottom: 100px;
+            flex-wrap: wrap;
+            gap: 92px;
+        }
+    }
+    /* MOBILE */
+@media (max-width:640px){
+    .sobre-mim{
+        max-width: 592px;
+        width: 100%;
+    }
+    .skills__icon{
+        display: flex;
+        justify-content: center;
+    }
+}
